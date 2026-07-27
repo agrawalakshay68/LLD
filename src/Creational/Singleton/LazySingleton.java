@@ -1,4 +1,4 @@
-package Singleton;
+package Creational.Singleton;
 
 /*
 * 1. Lazy Initialization (Not Thread-Safe)

@@ -1,8 +1,8 @@
-package Singleton;
+package Creational.Singleton;
 
 /*
-2. Thread-Safe Singleton
-This approach extends lazy initialization by ensuring the Singleton is safe to use in multi-threaded environments.
+2. Thread-Safe Creational.Singleton
+This approach extends lazy initialization by ensuring the Creational.Singleton is safe to use in multi-threaded environments.
 
 When multiple threads try to access the instance at the same time, synchronization (or locking) ensures that only one thread can create the object, while others wait.
  */

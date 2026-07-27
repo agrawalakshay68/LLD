@@ -1,4 +1,4 @@
-package Singleton;
+package Creational.Singleton;
 
 /*
 Lets say you are building an application where multiple components (HTTP handlers, database layer, background jobs) all need to cache expensive data like user profiles, configuration, and query results.
@@ -97,5 +97,5 @@ Violates the Single Responsibility Principle: The pattern solves two problems at
 In multithreaded environments, special care must be taken to implement Singletons correctly to avoid race conditions.
 Introduces global state into an application, which might be difficult to manage.
 Classes using the singleton can become tightly coupled to the singleton class.
-Singleton patterns can make unit testing difficult due to the global state it introduces.
+Creational.Singleton patterns can make unit testing difficult due to the global state it introduces.
  */

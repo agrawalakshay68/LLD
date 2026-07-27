@@ -1,4 +1,4 @@
-package Singleton;
+package Creational.Singleton;
 
 // as we are locking in every request this can cause performance issues
 // so we will lock only at first request
@@ -9,7 +9,7 @@ Double-checked locking reduces the performance overhead by only synchronizing du
 
 public class DoubleCheckedSingleton {
     // Holds the single shared instance (requires safe publication)
-    // volatile prevents reordering of instructions in: instance = new Singleton()
+    // volatile prevents reordering of instructions in: instance = new Creational.Singleton()
     // since it involves three steps: allocate memory, call constructor, assign reference
     private static volatile DoubleCheckedSingleton instance;
 
