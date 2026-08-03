@@ -1,6 +1,7 @@
 package Thread;
 
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.logging.Logger;
 
 public class AtomicityExample {
     private AtomicInteger count = new AtomicInteger(0);
