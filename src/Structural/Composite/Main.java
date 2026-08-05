@@ -2,9 +2,9 @@ package Structural.Composite;
 
 public class Main {
     static void main() {
-        Component file1 = new File("File1.txt");
-        Component file2 = new File("File2.txt");
-        Component file3 = new File("File3.txt");
+        File file1 = new File("File1.txt");
+        File file2 = new File("File2.txt");
+        File file3 = new File("File3.txt");
 
         Directory dir1 = new Directory("Dir1");
         dir1.add(file1);
